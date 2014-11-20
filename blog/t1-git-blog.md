@@ -1,6 +1,6 @@
-    11-20-2014
+11-20-2014
 
-      Git and Github
+Git and Github
 
 On my first week at DevbootCamp ,along with other topics, I have learned about Git, one of the most popular Version Control systems available, and Github , Git repository hosting service.
 

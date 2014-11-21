@@ -1,13 +1,15 @@
-Title
+Natalia's cultural blog
 
-Subtitle
+11-20-2014
 
-Date
+Post 1. Fireside chat
 
-Paragraph 1
+Watching Shereef's Fireside Chat today has reminded me again why I am so excited to become a part of DevbootCamp experience.
 
-Paragraph 2
+What has drawn my interest to DBC in the first place, is that it is not solely about learning how to code (in my opinion, almost anyone can learn that on his own),but just as much about learning how to collaborate with others, as well as about learning how to learn. In no way I understimate the importance of knowing Ruby, Java ,and so on, but with that amazing speed the development world grows , this knowledge will need to be updated daily. And to keep up with everything, we need more than just books. I believe that the best way we can learn is from each other, and, curiously, by teaching each other. It is surprising how many tasks and problems people can solve simply by talking about them!
 
-Paragraph 3
+One of the things I realized after watching the video is that whole studying process in DevbootCamp is just as much student-driven as teachers or curriculum-driven , and that everyone's will to contribute to the process, make it better experience, rather than just taking from it, is what makes DevbootCamp so succesful.
 
-Add as many paragraphs as you want!!!
+Like Shereef said, we are all co-chefs in this "kitchen" called DevbootCamp, taking charge of the process, each bringing a new unique note to it, in order to make it better.
+
+That's why I cannot be more excited about becoming a part of DBC, although  I would not be honest if I say that I'm not nervous about it.  Hope I will have something to bring to the table, and cannot wait to meet you all!

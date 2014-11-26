@@ -55,6 +55,10 @@ td a {
     border-radius: 1px;
  }
 
+ .postlink {
+     align: center;
+ }
+
   div a {
     color: black;
     font-family: cursive;

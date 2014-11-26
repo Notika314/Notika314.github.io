@@ -7,11 +7,13 @@ h2 {
 
    padding: 10px 60px 10px 60px;
    margin-top: 0px;
+   margin-bottom: 0px;
 }
 h4 {
   font-family: cursive;
   font-size: 25px;
   color: green;
+  margin-top: 0px;
 
 }
 

@@ -61,7 +61,7 @@ td a {
   }
 
   #footer {
-    float: bottom;
+    clear: both;
   }
 
 

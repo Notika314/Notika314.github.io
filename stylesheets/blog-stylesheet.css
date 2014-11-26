@@ -46,6 +46,7 @@ td a {
  .posts {
     height: 50px;
     width: 15%;
+    margin-top: 10px;
     margin-bottom: 10px;
     display: block;
     margin-right: 5px;

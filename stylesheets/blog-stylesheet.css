@@ -30,6 +30,10 @@ td a {
   margin-right: 110px;
 }
 
+#post {
+  float: right;
+}
+
 a {
   color: blue;
   border: 2px solid black;

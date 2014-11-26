@@ -30,9 +30,13 @@ td a {
   margin-right: 110px;
 }
 
+se
 
-.post {
+#post {
   float: right;
+  width: 600px;
+  height: 700px;
+  border: 1px solid black;
 }
 
 a {

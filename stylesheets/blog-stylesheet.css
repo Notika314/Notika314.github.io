@@ -30,13 +30,14 @@ td a {
   margin-right: 110px;
 }
 
-se
-
-section {
-  float: right;
-  width: 600px;
-  height: 700px;
-  border: 1px solid black;
+ #post {
+   width: 70%;
+   float: right;
+   height: 700px;
+   margin-left: 10px;
+   display: inline-block;
+   overflow: scroll;
+   border: 1px solid black;
 }
 
 a {

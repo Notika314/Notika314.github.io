@@ -17,6 +17,12 @@ h4 {
 
 }
 
+#navigation {
+    margin: auto;
+    width: 100px;
+    border: 2px solid black;
+}
+
 a {
   color: blue;
   border: 2px solid black;

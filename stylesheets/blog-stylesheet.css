@@ -50,7 +50,7 @@ td a {
     margin-top: 20px;
     margin-bottom: 10px;
     display: block;
-    margin-right: 5px;
+    margin-right: 10px;
     border: solid black 1px;
     border-radius: 1px;
  }
@@ -58,7 +58,7 @@ td a {
   div a {
     color: black;
     font-family: cursive;
-    background: red;
+
   }
 
   #footer {

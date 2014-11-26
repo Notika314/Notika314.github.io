@@ -36,6 +36,7 @@ td a {
    height: 400px;
    margin-left: 10px;
    margin-top: 10px;
+   margin-bottom: 5px;
    display: inline-block;
    overflow: scroll;
    border: 2px solid black;

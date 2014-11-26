@@ -41,6 +41,9 @@ td a {
    border: 2px solid black;
 }
 
+ .posts {
+    margin: 10px 10px 10px 10px;
+ }
 a {
   color: blue;
   border: 2px solid black;

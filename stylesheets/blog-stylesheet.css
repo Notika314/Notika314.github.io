@@ -1,3 +1,10 @@
+h2 {
+   border: 2px solid black;
+   border-radius: 2px;
+   padding: 10px 60px 10px 60px;
+   background-color: yellow;
+}
+
 a {
   color: blue;
   border: 2px solid black;

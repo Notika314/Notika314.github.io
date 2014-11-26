@@ -53,6 +53,13 @@ td a {
     border: solid black 1px;
     border-radius: 1px;
  }
+
+  div a {
+    color: black;
+    font-family: cursive;
+    background: red;
+  }
+
 a {
   color: blue;
   border: 2px solid black;

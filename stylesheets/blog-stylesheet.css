@@ -41,6 +41,11 @@ td a {
    border: 2px solid black;
 }
 
+  #post_menu {
+    width: 15%;
+  }
+
+
  .posts {
     margin: 10px 10px 10px 10px;
  }

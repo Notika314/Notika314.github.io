@@ -1,16 +1,11 @@
 h1 {
-  border: 2px solid black;
-  border-radius: 2px;
   padding: 10px 70px 10px 70px;
-  background-color: yellow;
   margin-bottom: 0px;
 }
 
 h2 {
-   border: 2px solid black;
-   border-radius: 2px;
+
    padding: 10px 60px 10px 60px;
-   background-color: yellow;
    margin-top: 0px;
 }
 h4 {

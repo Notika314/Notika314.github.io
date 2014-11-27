@@ -53,6 +53,7 @@ td a {
     margin-right: 10px;
     border: solid black 1px;
     border-radius: 1px;
+    text-align: center;
  }
 
  .postlink {
@@ -70,7 +71,7 @@ td a {
     clear: both;
     width: 100%;
     height: 35px;
-    border: 1px solid black;
+    border: 2px solid black;
     background-color: yellow;
     padding: 10px 20px 10px 20px;
     margin: 15px 5px 5px 5px;

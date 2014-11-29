@@ -31,7 +31,7 @@ nav {
     padding: 10px;
     border-radius: 10px;
     background-color: #E0F5FF;
-    box-shadow: 6px 6px 6px 6px #F0F0FF;
+    box-shadow: 6px 6px 6px 6px #003D52;
     text-shadow: rgba(0,0,0,.4) 0 1px 0;
     width: 70px;
     margin-left: 75px;
@@ -84,13 +84,13 @@ section {
 #siteinfo {
 
 display: block;
-background-color: #F0F0F5;
+background-color: #8096AC;
 margin-top: 60px;
 margin-right: 10px;
 width: 750px;
 height: 380px;
 border-radius: 15px;
-box-shadow: 20px 20px 20px 20px #F5F5FF;
+box-shadow: 20px 20px 20px 20px #003D52;
 }
 
 h3 {

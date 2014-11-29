@@ -19,9 +19,8 @@ h1 {
 
 nav {
   margin-top: -20px;
-  background-color: #7791B8;
-  box-shadow: 10px 10px 5px #3D3D5C;
-  border: 1px solid #7791B8;
+  box-shadow: 15px 15px 15px 15px #3D3D5C;
+  border: 2px solid navy;
   text-align: center;
 }
 
@@ -29,7 +28,7 @@ nav {
     display:inline;
     text-transform: uppercase;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #E0F5FF;
     box-shadow: 5px 5px 5px 5px navy;
     text-shadow: rgba(0,0,0,.4) 0 1px 0;
@@ -68,7 +67,7 @@ nav {
 .ig {
   margin-top: 30px;
   box-shadow: 12px 12px 12px 12px #3D3D5C;
-  content: url(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7tlkwJK6KvNZ3-6vSTAREuGo5kRlQDxGyqNUPOhu8TKNl8_L");
+content: url(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7tlkwJK6KvNZ3-6vSTAREuGo5kRlQDxGyqNUPOhu8TKNl8_L");
   border-radius:10px;
   height: 420px;
   width: 190px;
@@ -127,7 +126,8 @@ p {
     display: block;
     width: 100%;
     height: 50px;
-    background-color: #7791B8;
+    border: 1px solid navy;
+    box-shadow: 10px 10px 10px 10px navy;
   }
 
  #button1 {

@@ -13,7 +13,7 @@ h1 {
   size: 30px;
   text-align: center;
   font-size: 60px;
-  font-family: Times;
+  font-family: Papyrus, Arial;
 }
 
 
@@ -21,6 +21,7 @@ nav {
   margin-top: -20px;
   box-shadow: 15px 15px 15px 15px #3D3D5C;
   border: 2px solid navy;
+  border-radius: 15px;
   text-align: center;
 }
 
@@ -30,11 +31,11 @@ nav {
     padding: 10px;
     border-radius: 10px;
     background-color: #E0F5FF;
-    box-shadow: 5px 5px 5px 5px navy;
+    box-shadow: 5px 5px 5px 5px #FFFF94;
     text-shadow: rgba(0,0,0,.4) 0 1px 0;
     width: 70px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 
@@ -83,13 +84,13 @@ section {
 #siteinfo {
 
 display: block;
-background-color: #EBF5FF;
-margin-top: 40px;
+background-color: #F0F0F5;
+margin-top: 60px;
 margin-right: 10px;
 width: 750px;
 height: 380px;
 border-radius: 15px;
-box-shadow: 20px 20px 20px 20px white;
+box-shadow: 20px 20px 20px 20px #F5F5FF;
 }
 
 h3 {
@@ -127,6 +128,7 @@ p {
     width: 100%;
     height: 50px;
     border: 1px solid navy;
+    border-radius: 15px;
     box-shadow: 10px 10px 10px 10px navy;
   }
 

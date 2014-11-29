@@ -59,6 +59,7 @@ nav {
   border: 2px solid #888888;
   box-shadow: 8px 8px 8px 8px #002900;
   content: url("https://avatars2.githubusercontent.com/u/8938571?v=3&s=460");
+  opacity: 0.7;
   height: 140px;
   width: 140px;
 

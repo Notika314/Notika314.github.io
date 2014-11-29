@@ -119,3 +119,32 @@ p {
     border: 1px solid black;
 
   }
+
+ #button1 {
+  float:right;
+  margin-right: 30px;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 40px;
+  font-family: cursive;
+  width: 550px;
+  height: 200px;
+  border: 7px solid navy;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px 10px #2E2E8A;
+  background-color: #9999CC;
+
+ }
+ #button2 {
+  float: left;
+  text-align: center;
+  padding-top:120px;
+  font-size: 40px;
+  font-family: cursive;
+  width: 500px;
+  height: 200px;
+  border: 7px solid navy;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px 10px #2E2E8A;
+  background-color: #9999CC;
+ }

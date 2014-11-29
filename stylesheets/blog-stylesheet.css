@@ -1,6 +1,18 @@
-h1 {
+body {
+  background-color: #FFD6AD;
+}
+
+.heading {
   text-align: center;
-  font-family: Arial;
+  font-family: cursive;
+
+}
+
+.blogbody {
+  float: left;
+  background-color: white;
+  margin: 15px;
+  border: 1px dashed black;
 }
 .nav{
     border:1px solid #ccc;
@@ -24,7 +36,7 @@ h1 {
   float: left;
   content: url("https://avatars2.githubusercontent.com/u/8938571?v=3&s=460");
   height: 130px;
-  width: 130px
+  width: 130px;
 }
 
 section {

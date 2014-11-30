@@ -139,11 +139,11 @@ p {
   float:right;
   margin-right: 30px;
   text-align: center;
-  padding-top: 120px;
-  font-size: 40px;
+  padding-top: 10px;
+  font-size: 30px;
   font-family: cursive;
-  width: 550px;
-  height: 200px;
+  width: 525px;
+  height: 300px;
   border: 7px solid navy;
   border-radius: 30px;
   box-shadow: 10px 10px 10px 10px #2E2E8A;
@@ -153,13 +153,36 @@ p {
  #button2 {
   float: left;
   text-align: center;
-  padding-top:120px;
-  font-size: 40px;
+  padding-top:10px;
+  font-size: 30px;
   font-family: cursive;
-  width: 500px;
-  height: 200px;
+  width: 525px;
+  height: 300px;
   border: 7px solid navy;
   border-radius: 30px;
   box-shadow: 10px 10px 10px 10px #2E2E8A;
   background-color: #9999CC;
  }
+
+ .posts {
+    font-size: 15px;
+    font-family: Times;
+
+ }
+
+ .homebutton {
+  display: inline-block;
+  margin: 8px;
+  float: left;
+  padding: 10px;
+  font-size: 30px;
+
+ }
+
+ .blogbutton {
+  display: inline-block;
+  margin: 8px;
+  float: left;
+  padding: 10px;
+  font-size: 30px;
+}

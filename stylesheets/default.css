@@ -180,7 +180,7 @@ p {
  }
 
  .blogbutton {
-  display: inline-block;
+  display: block;
   margin: 8px;
   float: left;
   padding: 10px;

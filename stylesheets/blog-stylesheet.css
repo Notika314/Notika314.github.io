@@ -3,13 +3,14 @@ body {
 }
 
 .heading {
+  display: block;
   text-align: center;
   font-family: cursive;
 
 }
 
 .blogbody {
-  float: left;
+
   background-color: white;
   margin: 15px;
   border: 1px dashed black;

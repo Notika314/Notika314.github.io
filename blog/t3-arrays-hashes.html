@@ -22,10 +22,16 @@
     <p> cd[0]-first element</p>
     <p> cd [1]-second element , and so on. To set each element , yoiu can either access it individually, like cd[3]="We will rock you", or set all elements while initializing array: cd=["song1', "song2", ... , song10].</p>
     <p> Any time you can add new element, set it pointing to new value, or delete it. In case you will try to access the element that does not exist, like cd[14], Ruby will not through an error, but simply return nil, because nothing is there. </p>
-    <p> While it is possible to delete element anywhere inside the array, like so: cd.delete_at(5), doing so you have to keep in mind that all elements on the right from removed one( in our case, elemnts with indexes 6 to 9) will change their index number to (i-1).</p>
-    <p> Both Arrays and Hashes can hold objects of different types .</p>
+    <p>
+      While it is possible to delete element anywhere inside the array, like so: cd.delete_at(5), doing so you have to keep in mind that all elements on the right from removed one( in our case, elemnts with indexes 6 to 9) will change their index number to (i-1).
+    </p>
+    <p>
+      Both Arrays and Hashes can hold objects of different types .
+    </p>
     <p>So, initializing new Array can be done so:</p>
-    <code>cd=[]</code>
+    <code>
+      cd=[]
+    </code>
     <p>cd=Array.new</p>
     <p>cd=['song1','song2','song3',...,'song4']</p>
     <p>You can operate each element within Array one at a time, like : </p>

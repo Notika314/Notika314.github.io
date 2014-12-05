@@ -17,13 +17,27 @@
 
 
   <section class="blogbody">
-    <p>In coding, if we want to store information about multiply objects, we can gather these objects into collections, like arrays and hashes. </p>
-    <p>For example, if you have a CD with 10 songs on it, you can create an array called cd, that will have 10 elements , each element will be accessible in this way:   </p>
-    <code> cd[0]-first element</code>
-    <code> cd [1]-second element </code>
-    <p>, and so on. To set each element , yoiu can either access it individually, like cd[3]="We will rock you", or set all elements while initializing array:</p>
-    <code> cd=["song1', "song2", ... , song10].</code>
-    <p> Any time you can add new element, set it pointing to new value, or delete it. In case you will try to access the element that does not exist, like cd[14], Ruby will not through an error, but simply return nil, because nothing is there. </p>
+    <p>
+      In coding, if we want to store information about multiply objects, we can gather these objects into collections, like arrays and hashes.
+    </p>
+    <p>
+      For example, if you have a CD with 10 songs on it, you can create an array called cd, that will have 10 elements , each element will be accessible in this way:
+   </p>
+   <code>
+     cd[0]-first element
+   </code>
+   <code>
+     cd [1]-second element
+   </code>
+   <p>
+      , and so on. To set each element , yoiu can either access it individually, like cd[3]="We will rock you", or set all elements while initializing array:
+   </p>
+   <code>
+     cd=["song1', "song2", ... , song10].
+   </code>
+   <p>
+     Any time you can add new element, set it pointing to new value, or delete it. In case you will try to access the element that does not exist, like cd[14], Ruby will not through an error, but simply return nil, because nothing is there.
+   </p>
     <p>
       While it is possible to delete element anywhere inside the array, like so: cd.delete_at(5), doing so you have to keep in mind that all elements on the right from removed one( in our case, elemnts with indexes 6 to 9) will change their index number to (i-1).
     </p>
@@ -34,18 +48,42 @@
     <code>
       cd=[]
     </code>
-    <code>cd=Array.new</code>
-    <code>cd=['song1','song2','song3',...,'song4']</code>
-    <p>You can operate each element within Array one at a time, like : </p>
-    <code>array[i]=array[i]*3,</code>
-    <p>or you can use Array,s "map" method to iterate through each element within Array, changing it:</p>
-    <code>array.map!{|n| n*3}</code>
-    <p>Hashes are similar to Arrays, but you access each element not by its index, but by the corresponding key. Here is example of a Hash:</p>
-    <code>age={"Peter"=>25,"Anna"=>27,"Masha"=>18}</code>
-    <p>So, to access an elemnt(value), within a Hash, you will call for its key, like: </p>
-    <code>age["Peter"]</code>
-    <p>So, Hashes are used, when we don't want to access elements by their index numbers, but rather by some keywords (for example, in phonebooks, address books, grades at school and so on.)</p>
-    <p>Same as with Arrays, you will get nil if you will try to access key that hash does not contain(You will not be able to find phone number of a person that is not in a database).</p>
+    <code>
+      cd=Array.new
+    </code>
+    <code>
+      cd=['song1','song2','song3',...,'song4']
+    </code>
+    <p>
+      You can operate each element within Array one at a time, like :
+    </p>
+    <code>
+      array[i]=array[i]*3,
+    </code>
+    <p>
+      or you can use Array,s "map" method to iterate through each element within Array, changing it:
+    </p>
+    <code>
+      array.map!{|n| n*3}
+    </code>
+    <p>
+      Hashes are similar to Arrays, but you access each element not by its index, but by the corresponding key. Here is example of a Hash:
+    </p>
+    <code>
+      age={"Peter"=>25,"Anna"=>27,"Masha"=>18}
+    </code>
+    <p>
+      So, to access an elemnt(value), within a Hash, you will call for its key, like:
+    </p>
+    <code>
+      age["Peter"]
+    </code>
+    <p>
+      So, Hashes are used, when we don't want to access elements by their index numbers, but rather by some keywords (for example, in phonebooks, address books, grades at school and so on.)
+    </p>
+    <p>
+      Same as with Arrays, you will get nil if you will try to access key that hash does not contain(You will not be able to find phone number of a person that is not in a database).
+    </p>
   </section>
 
 </body>

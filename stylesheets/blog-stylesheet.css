@@ -10,10 +10,10 @@ body {
 }
 
 .blogbody {
-  opacity: 0.8;
-  background-color: white;
+  opacity: 1;
+  background-color: #97B1C9;
   margin: 15px;
-  border: 1px dashed black;
+
 }
 .nav{
     border:1px solid #ccc;

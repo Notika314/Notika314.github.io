@@ -10,7 +10,7 @@ body {
 }
 
 .blogbody {
-
+  opacity: 4;
   background-color: white;
   margin: 15px;
   border: 1px dashed black;

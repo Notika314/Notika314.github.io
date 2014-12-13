@@ -28,11 +28,14 @@
     </p>
     <p>
       The syntax of the method is:
+    </p>
       <code>
        (a..b).group_by{|i| i.block}
        [2,45,600,3,54,987,23,7432,87].group_by{|i| i.to_s.length}
       </code>
+      <p>
       The result will look like this:
+    </p>
       <code>
         =>{1=>[2,3],2=>[45,54,23,87],3=>[600,987],4=>[7432]}
       </code>

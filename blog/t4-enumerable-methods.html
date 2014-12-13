@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Natalia's Blog Post</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+</head>
+
+<body>
+
+  <div class="homebutton"><a href="../index.html">Home</a></div>
+  <div class="blogbutton"><a href="./blog_index.html">Blog</a></div>
+  <h1 class="heading">Natalia's Technical Blog</h1>
+  <h2 class="heading">Post 4. Enumerable methods</h2>
+  <h4 class="heading">December 12,2014</h4>
+
+
+
+  <section class="blogbody">
+    <p>
+      I have learned about new awesome method. Wish I knew about it before... It's name is "group_by". What does it do?
+    </p>
+    <p>
+       It takes collection of elements (numbers, words, etc.) , then it takes a question from you, and it gives you back a hash (you can imagine a list name for each entry of it), where every key (entry's name) is an answer that elements in the collection can give to our question, and the value (content of each entry) will have all the elements that give that answer.
+    </p>
+    <p>
+       So if you have collection of numbers , and you want to sort it by tens, hundreds, thousands, etc., you will return a hash with keys like 1(for tens), 2(for hundreds), 3 ( for thousands), etc. And the values will have all the elements from our collection that mathes certain key.
+    </p>
+    <p>
+      The syntax of the method is:
+      <code>
+       (a..b).group_by{|i| i.block}
+       [2,45,600,3,54,987,23,7432,87].group_by{|i| i.to_s.length}
+      </code>
+      The result will look like this:
+      <code>
+        =>{1=>[2,3],2=>[45,54,23,87],3=>[600,987],4=>[7432]}
+      </code>
+    </p>
+    <p>
+      So we will have as many keys in our result hash as many answers we get for our question with given collection.
+      This method is a great shortcut for loops where we iterate through collection , sorting elements by some criterias into arrays. With group_by method we don't even need to specify every possible criteria, method does the work for us!
+    </p>
+  </section>
+
+</body>
+</html>
+

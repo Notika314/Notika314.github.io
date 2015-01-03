@@ -48,7 +48,13 @@
       </p>
       <p><pre><code>
         class Soda < Drink
-          end
+         def some_method
+           .......
+         end
+         def some_other_method
+           .......
+         end
+        end
       </code></pre></p>
       <p>Here we created another class Soda, and it is a subclass of Drink. So all instances of Soda will have the methods defined in Drink (unless we decide to override them). But as well Soda's instances will have methods defined only in Soda class. To find methods that class defines for its instances(without methods defined in superclass), you can use command "Class_name.instance_methods(false)".</p>
   </section>

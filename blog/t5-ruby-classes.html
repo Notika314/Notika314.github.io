@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Natalia's Blog Post</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+</head>
+
+<body>
+
+  <div class="homebutton"><a href="../index.html">Home</a></div>
+  <div class="blogbutton"><a href="./blog_index.html">Blog</a></div>
+  <h1 class="heading">Natalia's Technical Blog</h1>
+  <h2 class="heading">Post 4. Ruby classes</h2>
+  <h4 class="heading">January 2,2015</h4>
+
+
+
+  <section class="blogbody">
+    <p>
+      <code>
+        class Drink
+          attr_accessor :price, :taste, :causes_hangover?, :low_calorie?
+          attr_reader :name
+            def initialize(name)
+              @name = name
+            end
+            def print_info
+             if @causes_hangover? == true
+               p "it might give you leave you with headache on the next day"
+               p "Don't drink it unless you are 21 or older"
+             end
+             if @low_calorie? == true
+               p "The good thing about it, you don't have to worry about calories"
+             end
+            end
+            end
+        </code>
+
+
+    </p>
+    <p><!--second paragraph--></p>
+    <p><!--third paragraph--></p>
+  </section>
+
+</body>
+</html>
+

@@ -17,24 +17,23 @@
 
 
   <section class="blogbody">
-    <p>
-      <code>
-        class Drink
-          attr_accessor :price, :taste, :causes_hangover?, :low_calorie?
-          attr_reader :name
-            def initialize(name)
-              @name = name
-            end
-            def print_info
-             if @causes_hangover? == true
-               p "it might give you leave you with headache on the next day"
-               p "Don't drink it unless you are 21 or older"
-             end
-             if @low_calorie? == true
-               p "The good thing about it, you don't have to worry about calories"
-             end
-            end
-            end
+
+    <p><code>class Drink</code></p>
+      <p><code>attr_accessor :price, :taste, :causes_hangover?, :low_calorie?</code></p>
+      <p><code>attr_reader :name</code></p>
+        <p><code>def initialize(name)</code></p>
+          <p><code>@name = name</code></p>
+        <p><code>end</code></p>
+        def print_info
+         if @causes_hangover? == true
+           p "it might give you leave you with headache on the next day"
+           p "Don't drink it unless you are 21 or older"
+         end
+         if @low_calorie? == true
+           p "The good thing about it, you don't have to worry about calories"
+         end
+        end
+        end
         </code>
 
 

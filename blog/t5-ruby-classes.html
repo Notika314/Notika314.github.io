@@ -44,6 +44,13 @@
     <p>In my case, I created class Drink, and supply methods to it.The visible methods are "#initialize" , which is called with "class_name.new" command, and "#print_info" method, that prints information about a drink . </p>
     <p>
       Besides this, I have other methods, that I can call on all instances of class drink thanks to attr_reader and attr_accessor (these are methods of class Drink itself, not of its instances). Then , by providing arguments to attr_reader we now have methods #name, #price, #taste and such(called getter methods). attr_reader give us both getter methods, and setter methods, that looks like #price=, #low_calorie=, and so on. Thanks to this methods, we can any time set price of a drink, like "cosmo.price=56", or find the taste of it ("milk.taste").
+      <p> Another cool thing about classes, they can relate to each other. Here is example:
+      </p>
+      <p><pre><code>
+        class Soda < Drink
+          end
+      </code></pre></p>
+      <p>Here we created another class Soda, and it is a subclass of Drink. So all instances of Soda will have the methods defined in Drink (unless we decide to override them). But as well Soda's instances will have methods defined only in Soda class. To find methods that class defines for its instances(without methods defined in superclass), you can use command "Class_name.instance_methods(false)".</p>
   </section>
 
 </body>

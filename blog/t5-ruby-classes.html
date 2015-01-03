@@ -57,6 +57,8 @@
         end
       </code></pre></p>
       <p>Here we created another class Soda, and it is a subclass of Drink. So all instances of Soda will have the methods defined in Drink (unless we decide to override them). But as well Soda's instances will have methods defined only in Soda class. To find methods that class defines for its instances(without methods defined in superclass), you can use command "Class_name.instance_methods(false)".</p>
+      <p> Along with getting methods from its class, or superclass of the class, and its singleton(unique) methods , object can get methods from modules that are mixed in class. Objects are pretty much like classes, in a way that they are define methods that objects can use. But, modues themselves cannot create object(they don't have method ".new", like classes). So in order to be able to use methods defined in modules, we mix module in a class, and then create instances of that class.</p>
+      <p>
   </section>
 
 </body>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+  <title>Natalia's Blog Post</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+</head>
+
+<body>
+
+  <div class="homebutton"><a href="../index.html">Home</a></div>
+  <div class="blogbutton"><a href="./blog_index.html">Blog</a></div>
+  <h1 class="heading">Natalia's Technical Blog</h1>
+  <h2 class="heading">Post 5. Classses vs modules</h2>
+  <h4 class="heading">January 10,2015</h4>
+  <section class="blogbody">
+     <p>In Ruby, when we create anobject, we want it to know how to perform certain actions- that is, we want it to have methods. In order for object to have methods, we can:
+    </p>
+    <ul>
+      <li>
+        write singleton methodsfor each individual object
+      </li>
+      <li>
+        create object as an instance of a class, where class defines methods we want out object to have.
+        </li>
+      </ul>
+    <p>
+      Second way is extremely easy and popular - it is so convinient, because once we define methods inside a class, we can create any number of instances of that class, and all of them will have these methods.
+    </p>
+    <p>
+      So classes define their instances' behavior - to certin point, at least, beecause we are always free to make any object unique, granting it with singleton methods.
+    </p>
+    <p>
+      As for modules, they are very much like classes- they define methods that objects will be using. Moreover, the Class class is a subclass of Module class , so all objects we work with are class object and module objects at the same time.What is the difference between classes and modules then? -A pretty significant one: modules cannot bring objects to life .That is , they cannot instantiate new oobjects. Only classes do so. In order for objects to know and have methods defined in any module, we have to mix that module into class.
+      A lot of methods array objects have come from Enumerable module mixed-in Array class.
+    </p>
+    <p>
+       The idea of being able to mix modules in the class is great, because now we are not limited by classes' "single inheritance" rule, that allows any class to inherit behaviour of only one class. Having modules, we can bring many different behaviuors to our class, because we are free to mix any amount of modules into the class. So if we create instance of class Person, it will behave like all other persons do (for examle, it will have attributes like age, name, address, methods like #eat, #drink, #sleep, etc), but it can also behave like dancer if we mix in Dance module (with methods like #barre, #plie, #port_de_bras etc) , and like artist, social_drinker, and so on. If not for modules, we would have to define all the behaviours in the class, and then all objects of that class would have these behaviours. With modules, we get to mix-and-match , to get any combination of behaviours we like.
+     </p>
+     <p>
+      There are two ways to mix module into class - "include" and "prepend". The difference between them is how object searches and finds methods that come with included/prepended module. If you "include" module in the class, then method defined in that module searched for only if there is no method with same name defined in the class. If there is such method in the class definition, it gets executed, and method from the module package never gets executed. However, if we "prepend" module in the class,its methods will have first-class priority in method-lookup path, so they will always get executed.
+      </p>
+      <p>
+       While we mix modules into the classes, we can also define class inside module definition, like:
+     <pre><code>
+      module Music
+         class Key
+         end
+      end
+         </code>
+        </pre>
+      </p>
+      <p>
+        to create instance of class Key in this case, we need to use double-colon constant lookup:
+        <pre>
+          <code>
+       a=Music::Key
+          </code>
+        </pre>
+      </p>
+      <p>
+        This technique is used when we want to create class with similar name as another existent one.
+      </p>
+
+  </section>
+
+</body>
+</html>
+

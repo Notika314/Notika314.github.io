@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+  <title>Natalia's Blog Post</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+</head>
+
+<body>
+
+  <div class="homebutton"><a href="../index.html">Home</a></div>
+  <div class="blogbutton"><a href="./blog_index.html">Blog</a></div>
+  <h1 class="heading">Natalia's Technical Blog</h1>
+  <h2 class="heading">Post 7. Looping in Ruby vs. Looping in JavaScript.</h2>
+  <h4 class="heading">January 10,2015</h4>
+  <section class="blogbody">
+    <p>
+      While programming in Ruby, I got used to so many different ways available for looping. I mean, I could loop conditionally, unconditionally, fixed number of times, loop through an array or a range of numbers.I could even loop without realizing that I was - with methods like #map, #each and many others.
+    </p>
+    <p>
+       That's one of the reasons why trnsition to Javascript from Ruby was so painful, In Javascript, I have just 3 ways to loop :
+    </p>
+    <p>
+      -'while' loop, works same way as the one in Ruby, with some syntax differences.Looping happens while conditional statement we give to 'while' evaluates to 'true';
+    </p>
+    <p>
+      -'do' loop -uncoditional loop, it runs forever, unless you provide a 'break' keyword to get out of it;
+    </p>
+    <p>
+      -'for' loop - loop with a counter. We initiate the variable to some value, provide a boundary , and a statement that increases initial variable. 'For' loop runs on and on until counter reaches the boundary.
+    </p>
+    <p>
+      There is also a variation of a 'while' loop: the loop starts with the keyword "do", then goes the body of the loop, and then we close the loop with the keyword 'while' with statement provided to it:
+      <pre>
+        <code>
+         do {
+            var name = prompt("Who are you?");
+          } while (!name);
+          console.log(name);
+        </code>
+      </pre>
+    </p>
+    <p>
+      In "do .. while" loop the expression inside the loop's body will be evaluated at least once , before checking the condition with "while".
+    </p>
+    <p>
+      Another way to loop with "for" , is "for/in" . In this case, we loop through the properties of an object:
+      <pre>
+        <code>
+          var person = {fname: "Silvia", lname: "Rustagi", age: 32}
+          var x;
+          for (x in person) {
+          console.log(person[x])
+        };
+       </code>
+     </pre>
+   </p>
+   <p>
+    There is no "until" loop in Ruby, but it can be replaced with 'while' and negated statement, like:
+    <pre>
+      <code>
+        while (!(cindition)) {
+      };
+      </code>
+    </pre>
+  </p>
+  <p>
+     I am a big fun of "until" loop - it speaks for itself, easy to follow, but other than that "while (negated statement)" does the work just fine.
+   </p>
+   <p>
+    There is another trick in Javascript, that is simular to "break": "continue" keyword. It breaks one iteration if condition given to it evaluate to 'true', and jumps to the next round of looping:
+    <pre>
+      <code>
+        for (i=0; i<=10; i++) {
+        if (i === 3) continue;
+        console.log("the number is " + i + " ");
+      };
+     </code>
+   </pre>
+  </p>
+  <p>
+    To sum up, Javascript has smaller toolbox for looping compared to Ruby. The biggest difference is an absence of methods like #each , #map, #select and others(in Ruby they are provided with Enumerable module), that iterate through elements in array/range , modifying or somehow else using them. In JS, we have to use "for/in" loop for such purposes, and explicitly write the code inside the loop that will do the task.
+    </p.
+    <p>
+      I like to compare how less methods and ways to do stuff are available in JS compared to Ruby to having to cook from scratch instead of using pre-made mixes and pre-cut vegies in our kitchen. The pre-made stuff makes our lives easier, and allow us to concentrate on some more complicated part of task.
+    </p>
+</section>
+</body>
+</html>
+

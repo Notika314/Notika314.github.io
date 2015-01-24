@@ -1,0 +1,33 @@
+#container {
+  background-color:   #FFFF9D;
+  width: 80%;
+  border: 4px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loop {
+  background-color: #85ADFF;
+  width: 90%;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border: 2px solid black;
+    display: inline-block;
+}
+
+.left {
+  width: 49%;
+  float: left;
+}
+
+.right {
+  width: 49%;
+   float: right;
+}
+
+h1,h2,h3,h4 {
+  text-align: center;
+}
+pre {
+  text-align: left;
+}

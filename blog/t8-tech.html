@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+  <title>Natalia's Blog Post</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+</head>
+
+<body>
+
+  <div class="homebutton"><a href="../index.html">Home</a></div>
+  <div class="blogbutton"><a href="./blog_index.html">Blog</a></div>
+  <h1 class="heading">Natalia's Technical Blog</h1>
+  <h2 class="heading">Post 8. Regular expressions.</h2>
+  <h4 class="heading">January 24,2015</h4>
+  <section class="blogbody">
+    <p>
+    Knowledge about Regular Expressions come in handy when working with string on advanced level. Regular Expression (regexp) is a search query, and it is formatted as a string that describes a pattern for matching elements in other strings.
+    </p>
+    <p>
+      Regular Expression is used with string-formatting methods, lile:
+      <pre>
+        string = "I am a simple string"
+        puts string.sub(/..$/,'blah')
+        =>'I am a simple striblah'
+      </pre>
+    </p>
+    <p>
+      Here /..$/ is a regex, where '.' stands for character, and '$' - for the end of the line. Similarly, /^../ means 'first 2 characters in the line'
+    </p>
+    <p>
+      So, as previous examples show, we use regexp to find certain patterns in strings ( to delete those patterns, replace them,print them out, store somewhere, etc.)
+    </p>
+    <p>
+      We can also iterate through a string, like:
+      <pre>
+        string.scan(/./) {|letter| puts letter}
+      </pre>
+    </p>
+    <p>
+      We can also scan for any amount of characters:
+    </p>
+    <p>
+      'string.scan(/.../)' - scans for 3 characters;
+    </p>
+    <p>
+      'string.scan(/\w\w/)'-scans for any two
+      letters/digits/underscore characters in a row
+    </p>
+    <p>
+      for regexp, there are special characters that are denoted with '\', each of them has special meaning:
+   <ul>
+    <li>
+      ^ - anchor for the beginning of a line
+    </li>
+    <li>
+      $ - anchor for the end of a line
+    </li>
+    <li>
+      \A - anchor for the start of a string
+    </li>
+    <li>
+      \Z - anchor for the end of the string
+    </li>
+    <li>
+      . - any character
+    </li>
+    <li>
+      \w - any letter/digit/underscore
+    </li>
+    <li>
+      \W - anything that '\w' does not match
+    </li>
+    <li>
+      \d - any digit
+    </li>
+    <li>
+      \D - any non-digit
+    </li>
+    <li>
+      \s - whitespace (including tabs, newline, etc.)
+    </li>
+    <li>
+      \S - non-whitespace
+    </li>
+  </ul>
+  </p>
+  <p>
+    Let's say, we want to iterate through words/numbers in a string, and of course words in a string will have different length. For this purpose, we should use '+' , that follows '\w' or '\d' character. '+' matches as many characters in a row of the same type as it finds:
+    <pre>
+      "this is a test".scan(/\w+/) { |word| p word}
+      => this
+         is
+         a
+         test
+    </pre>
+  </p>
+  <p>
+    Other useful modifiers are:
+  </p>
+  <p>
+    {x} - matches x occurences of preceding character
+  </p>
+  <p>
+    {x,y} - matches at leat x, at most y characters
+  </p>
+  <p>
+    Character class-  explicit list of all characters put inside the regexp in []. For example, to scan through all vowels:
+    <pre>
+      string.scan(/[aeiou]/) {|x| p x}
+    </pre>
+  </p>
+  <p>
+    To scan through range of characters:
+    <pre>
+      string.scan(/[a-f]/) {|x| p x}
+    </pre>
+  </p>
+  <p>
+    To check whether string matches the pattern:
+    <pre>
+      string =~/[pattern]/
+    </pre>
+  </p>
+  <p>
+    '~' is called 'matching operator' . It returns the position of the first match ( or nil, if match is not found).
+  </p>
+  <p>
+    To look for all but certain characters, we can negate character class. For example, to look for all characters except vowels:
+    <pre>
+      string =~/[^aeiou]/
+    </pre>
+  </p>
+
+    </p>
+  </section>
+
+</body>
+</html>
+

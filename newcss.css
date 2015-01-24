@@ -1,19 +1,23 @@
 #container {
-  background-color:     #FFAD5C;
+  background-color:       #5A0000;
   width: 80%;
-  border: 4px solid black;
+  border: 4px solid #FFE6F0 ;
   margin-left: auto;
   margin-right: auto;
+    color: #FFE6F0
+;
 }
 
 .loop {
-  background-color: #FFFF9D;
+  background-color: #FFE6F0
+;
   width: 90%;
   margin-left: 40px;
   margin-bottom: 40px;
   /*border: 2px solid black;*/
   border-radius: 10px;
     display: inline-block;
+    color:  #5A0000;
 }
 
 .left {

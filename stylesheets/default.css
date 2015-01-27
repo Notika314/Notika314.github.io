@@ -26,6 +26,7 @@ body {
     opacity: 0.5;
   }
   .right:hover {
+    background: #FFF5EB
     opacity: 0.8;
   }
 

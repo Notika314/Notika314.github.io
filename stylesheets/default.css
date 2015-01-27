@@ -62,7 +62,7 @@ body {
   }
   #blog:hover {
     top: -15px;
-    left: 455px;
+    left: 445px;
   }
   #projects {
     position: absolute;
@@ -84,7 +84,7 @@ body {
   }
   #portfolio:hover {
    top: 145px;
-   left: 455px;
+   left: 445px;
   }
   #something {
     position: absolute;
@@ -95,7 +95,7 @@ body {
   }
   #something:hover {
     top: 145px;
-    left: 770px;
+    left: 750px;
   }
 
 #list {

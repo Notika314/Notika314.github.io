@@ -1,3 +1,6 @@
+body {
+  background-attachment: fixed;
+}
 h1,h2 {
   text-align: center;
   color: #B82500;

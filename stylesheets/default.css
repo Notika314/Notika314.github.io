@@ -312,9 +312,9 @@ li:hover,#music:hover,#games:hover {
       }
 .post {
   float: left;
-  margin: 25px;
-  width: 130px;
-  height: 70px;
+  margin: 15px;
+  width: 150px;
+  height: 80px;
   background: grey;
   border: 3px solid grey ;
    border-radius: 10px;
@@ -330,8 +330,5 @@ li:hover,#music:hover,#games:hover {
 }
 .post:hover {
   opacity: 1;
-  margin: 0px;
-  width: 160px;
-  height: 85px;
   font-size: 22px;
 }

@@ -23,10 +23,10 @@ body {
     height: 260px;
     border-radius: 20px;
     background: #FFD6AD;
-    opacity: 0.8;
+    opacity: 0.5;
   }
   .right:hover {
-    opacity: 1;
+    opacity: 0.8;
   }
 
   #quote {

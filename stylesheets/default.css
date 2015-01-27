@@ -157,6 +157,7 @@ li:hover,#music:hover,#games:hover {
   }
   #google:hover {
     margin: 0px;
+    border-top-color: #28597a;
     opacity: 1;
     width: 100px;
     height: 70px;
@@ -175,6 +176,7 @@ li:hover,#music:hover,#games:hover {
   }
   #github:hover {
     margin: 0px;
+    border-top-color: #28597a;
     opacity: 1;
     width: 70px;
     height: 70px;
@@ -192,6 +194,7 @@ li:hover,#music:hover,#games:hover {
   }
   #facebook:hover {
     margin: 0px;
+    border-top-color: #28597a;
     opacity: 1;
     width: 60px;
     height: 60px;
@@ -209,6 +212,7 @@ li:hover,#music:hover,#games:hover {
   }
   #linkedin:hover {
     margin: 0px;
+    border-top-color: #28597a;
     opacity: 1;
     width: 50px;
     height: 50px;

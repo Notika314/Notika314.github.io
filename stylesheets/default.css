@@ -25,9 +25,6 @@ body {
     background: #FFD6AD;
     opacity: 0.5;
   }
-  .right:hover {
-    background: #FFF5EB;
-  }
 
   #quote {
     margin: 15px;
@@ -172,8 +169,6 @@ body {
    border-top-color: #28597a;
    font-size: 45px;
    background: #FFD6AD;
-   color:   #00005C;
-   opacity: 0.8;
    width: 110%;
    height: 110%;
    }

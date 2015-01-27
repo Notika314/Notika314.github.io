@@ -50,6 +50,6 @@ pre {
   font-size: 18px;
 }
 #text {
-  top: 20px;
-  left: 10px;
+  width: 90%;
+  margin: 30px;
 }

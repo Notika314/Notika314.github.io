@@ -25,13 +25,13 @@ body {
 
   #quote {
     margin: 15px;
-    font-size: 52em;
+    font-size: 52px;
     text-align: left;
     family-weight: bold;
     font-family: papyrus;
   }
   #author {
-    font-size: 36em;
+    font-size: 36px;
     font-family: papyrus;
   }
   #container {
@@ -125,6 +125,11 @@ li:hover,#music:hover,#games:hover {
 
   }
   .button:hover {
+
+    position: relative;
+    top: -7px;
+    left: -7px;
+
     z-index: 2;
    border-top-color: #28597a;
    opacity: 1;

@@ -95,6 +95,13 @@ li:hover,#music:hover,#games:hover {
   width: 170px;
   height: 170px;
   content: url(http://th08.deviantart.net/fs71/PRE/f/2011/314/3/6/gramophone_by_zaphrozz-d4fq8pw.jpg);
+  opacity: 0.8;
+}
+#music:hover {
+  top: 110px;
+  left: 0px;
+  width: 210px;
+  height: 210px;
 }
 
 #games {
@@ -104,8 +111,14 @@ li:hover,#music:hover,#games:hover {
   width: 170px;
   height: 170px;
   content: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQSeGKneXefsiGtA3BTrdB2XN3jD0qvUWwNUIruDT9lMSUzXpMNMA);
+  opacity:0.8;
 }
-
+#games:hover {
+  top: 110px;
+  left: 200px;
+  width: 210px;
+  height: 210px;
+}
   .button {
     z-index: 1;
    text-align: center;

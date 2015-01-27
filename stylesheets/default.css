@@ -55,8 +55,8 @@ body {
 
   #blog {
     position: absolute;
-    top: 110px;
-    left: 450px;
+    top: 10px;
+    left: 500px;
     width: 290px;
     height: 140px;
   }
@@ -150,8 +150,8 @@ li:hover,#music:hover,#games:hover {
     z-index: 1;
    text-align: center;
    position: absolute;
-   width: 43%;
-   height: 43%;
+   width: 90%;
+   height: 90%;
    border: 3px solid grey /*#A34747*/;
    border-radius: 11px;
    box-shadow: rgba(0,0,0,1) 0 2px 0;
@@ -170,8 +170,8 @@ li:hover,#music:hover,#games:hover {
    border-top-color: #28597a;
    font-size: 22px;
    opacity: 1;
-   width: 55%;
-   height: 55%;
+   width: 110%;
+   height: 110%;
    }
 .button:active {
    border-top-color: #1b435e;

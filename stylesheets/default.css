@@ -6,8 +6,8 @@ body {
   position: absolute;
   top: 20px;
   left: 40px;
-  width: 180px;
-  height: 180px;
+  width: 240px;
+  height: 240px;
   border: 5px solid white;
   content: url("https://avatars2.githubusercontent.com/u/8938571?v=3&s=460");
   }
@@ -18,10 +18,9 @@ body {
     right: 100px;
     text-align: center;
     width: 58%;
-    height: 180px;
+    height: 240px;
     border-radius: 20px;
     background: #FAF5F5;
-    opacity: 0.9;
   }
 
   p {
@@ -37,7 +36,7 @@ body {
   }
   #container {
     position: relative;
-    top: 210px;
+    top: 270px;
     width: 97%;
     height: 270px;
     margin: 15px;

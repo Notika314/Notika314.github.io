@@ -92,17 +92,17 @@ li:hover,#music:hover,#games:hover {
   position: absolute;
   top: 120px;
   left: 10px;
-  width: 100px;
-  height: 100px;
+  width: 170px;
+  height: 170px;
   content: url(http://fc03.deviantart.net/fs71/i/2010/274/9/7/gramophone_flower_tattoo_by_asdepique-d2zu4jr.jpg);
 }
 
 #games {
   position: absolute;
   top: 120px;
-  left: 140px;
+  left: 210px;
   width: 100px;
-  height: 100px;
+  height: 170px;
   opacity: 0.7;
   content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhWax6xaETrKUARXK0wfFP7ugrDlSHXHGSRCBa_C5vzpuZq7nC);
 }

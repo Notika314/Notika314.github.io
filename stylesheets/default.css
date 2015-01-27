@@ -73,7 +73,7 @@ body {
   }
   #projects:hover {
     top: 0px;
-    left: 770px;
+    left: 780px;
   }
   #portfolio {
     position: absolute;
@@ -83,7 +83,7 @@ body {
     height: 140px;
   }
   #portfolio:hover {
-   top: 170px;
+   top: 155px;
    left: 465px;
   }
   #something {
@@ -94,8 +94,8 @@ body {
     height: 140px;
   }
   #something:hover {
-    top: 170px;
-    left: 770px;
+    top: 155px;
+    left: 780px;
   }
 
 #list {

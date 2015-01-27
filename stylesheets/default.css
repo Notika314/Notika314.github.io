@@ -171,6 +171,8 @@ li:hover,#music:hover,#games:hover {
     z-index: 2;
    border-top-color: #28597a;
    font-size: 45px;
+   background: #FFA319;
+   color:   #00005C;
    opacity: 1;
    width: 110%;
    height: 110%;

@@ -86,6 +86,7 @@ body {
 
 li:hover,#music:hover,#games:hover {
   opacity: 1;
+  background:   #E68080;
 }
 
 #music {

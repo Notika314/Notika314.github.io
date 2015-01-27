@@ -320,7 +320,6 @@ body {
   margin: 10px;
   width: 170px;
   height: 120px;
-  background: grey;
   border: 3px solid grey ;
    border-radius: 10px;
    box-shadow: rgba(0,0,0,1) 0 2px 0;
@@ -328,12 +327,12 @@ body {
    font-size: 17px;
    font-weight:bold;
    font-family: papyrus/*cursive*/;
-   background:    #F9F3F3;
-   color: #B82500;
+   background:    #FFD6AD;
+   color: #00005C;
    text-decoration: none;
-   opacity: 0.8;
+   opacity: 0.6;
 }
 .post:hover {
-  opacity: 1;
+  opacity: 0.8;
   font-size: 25px;
 }

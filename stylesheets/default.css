@@ -26,7 +26,7 @@ body {
     opacity: 0.5;
   }
   .right:hover {
-    background: #FFF5EB
+    background: #FFF5EB;
     opacity: 0.8;
   }
 
@@ -112,10 +112,6 @@ body {
   top:-10px;
   left: 1170px;
   width: 100px;
-}
-
-li:hover,#music:hover,#games:hover {
-  opacity: 1;
 }
 
 #music {

@@ -60,6 +60,10 @@ body {
     width: 290px;
     height: 140px;
   }
+  #blog:hover {
+    top: -15px;
+    left: 475px;
+  }
   #projects {
     position: absolute;
     top: 10px;
@@ -67,12 +71,20 @@ body {
     width: 290px;
     height: 140px;
   }
+  #projects:hover {
+    top: -15px;
+    left: 790px;
+  }
   #portfolio {
     position: absolute;
     top: 170px;
     left: 500px;
     width: 290px;
     height: 140px;
+  }
+  #portfolio:hover {
+   top: 145px;
+   left: 475px;
   }
   #something {
     position: absolute;
@@ -82,8 +94,8 @@ body {
     height: 140px;
   }
   #something:hover {
-    top: 160px;
-    left: 800px;
+    top: 145px;
+    left: 790px;
   }
 
 #list {

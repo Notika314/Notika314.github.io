@@ -154,6 +154,11 @@ li:hover,#music:hover,#games:hover {
     border-radius: 5px;
     box-shadow: inset 3px 3px 3px 3px #000, 0 0 0 0 #000;
   }
+  #google:hover {
+    width: 100px;
+    height: 70px;
+    opacity: 1
+  }
 
   #github {
     content: url(https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png);
@@ -165,6 +170,12 @@ li:hover,#music:hover,#games:hover {
     opacity: 0.8;
     border-radius: 5px;
     box-shadow: inset 3px 3px 3px 3px #000, 0 0 0 0 #000;
+  }
+  #github:hover {
+    margin: 0px;
+    width: 70px;
+    height: 70px;
+    opacity: 1;
   }
   #facebook {
     content: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSB4pL6OXqWMFBEjeDAWeqERhGGSaM42gUVXs_cHgzo3RO1hNj04xV1clY);

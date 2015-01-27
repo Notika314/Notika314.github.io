@@ -313,7 +313,7 @@ li:hover,#music:hover,#games:hover {
 .post {
   float: left;
   margin: 15px;
-  width: 140px;
+  width: 130px;
   height: 70px;
   background: grey;
   border: 3px solid grey ;
@@ -330,7 +330,8 @@ li:hover,#music:hover,#games:hover {
 }
 .post:hover {
   opacity: 1;
-  margin: 5px;
+  margin: 0px;
   width: 160px;
   height: 85px;
+  font-size: 22px;
 }

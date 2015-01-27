@@ -165,8 +165,8 @@ li:hover,#music:hover,#games:hover {
     z-index: 2;
    border-top-color: #28597a;
    opacity: 1;
-   width: 120%;
-   height: 120%;
+   width: 140%;
+   height: 140%;
    }
 .button:active {
    border-top-color: #1b435e;

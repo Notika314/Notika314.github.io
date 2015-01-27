@@ -164,7 +164,7 @@ li:hover,#music:hover,#games:hover {
    background:  #FFD6AD/*#F9F3F3*/;
    color: #00005C/*#B82500*/;
    text-decoration: none;
-   opacity: 0.8;
+   opacity: 0.6;
 
   }
   .button:hover {
@@ -173,7 +173,7 @@ li:hover,#music:hover,#games:hover {
    font-size: 45px;
    background: #FFA319;
    color:   #00005C;
-   opacity: 1;
+   opacity: 0.8;
    width: 110%;
    height: 110%;
    }

@@ -86,7 +86,6 @@ body {
 
 li:hover,#music:hover,#games:hover {
   opacity: 1;
-  background:   #E68080;
 }
 
 #music {
@@ -173,6 +172,7 @@ li:hover,#music:hover,#games:hover {
     margin: 0px;
     width: 100px;
     height: 70px;
+    background:   #E68080;
   }
 
   #github {
@@ -190,6 +190,7 @@ li:hover,#music:hover,#games:hover {
     margin: 0px;
     width: 70px;
     height: 70px;
+    background:   #E68080;
   }
   #facebook {
     content: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSB4pL6OXqWMFBEjeDAWeqERhGGSaM42gUVXs_cHgzo3RO1hNj04xV1clY);
@@ -206,6 +207,7 @@ li:hover,#music:hover,#games:hover {
     margin: 0px;
     width: 60px;
     height: 60px;
+    background:   #E68080;
   }
   #linkedin {
     content: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTifasrHkYn3Y1ZdG11HJ5eeZ6PklyJVVO12OaqS-qhh6-D6tsc);
@@ -222,6 +224,7 @@ li:hover,#music:hover,#games:hover {
     margin: 0px;
     width: 50px;
     height: 50px;
+    background:   #E68080;
   }
 
  /*#google, #github, #facebook, #linkedin, #music, #games:hover {

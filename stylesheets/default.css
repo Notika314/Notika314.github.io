@@ -12,7 +12,7 @@ body {
   content: url("https://avatars2.githubusercontent.com/u/8938571?v=3&s=460");
   }
   .right {
-    font-size: 42px;
+    font-size: 52px;
     position: absolute;
     top: 20px;
     right: 100px;
@@ -31,7 +31,7 @@ body {
     font-family: papyrus;
   }
   #author {
-    font-size: 29px;
+    font-size: 36px;
     font-family: papyrus;
   }
   #container {

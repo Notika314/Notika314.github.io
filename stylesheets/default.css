@@ -2,7 +2,7 @@ body {
   background-image: url(http://www.zdwired.com/wp-content/uploads/2013/08/Graphic-wallpapers_thumb.jpg);/*(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZicsjyoX51CP5gXrcdkJ6Cxo5HT7__h5LW0pQ9qfya-2bvM3DJS3qkbY);(http://i268.photobucket.com/albums/jj39/ladyxel/black-n-white-wallpaper.jpg);*/
  background-repeat: no-repeat;
  background-size: 100%;
- /*background-attachment: fixed;*/
+ background-attachment: fixed;
 }
 
 .left {

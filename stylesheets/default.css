@@ -329,8 +329,6 @@ li:hover,#music:hover,#games:hover {
    opacity: 0.8;
 }
 .post:hover {
-  width: 155px;
-  height: 83px;
   opacity: 1;
   font-size: 22px;
 }

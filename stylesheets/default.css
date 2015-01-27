@@ -22,7 +22,11 @@ body {
     width: 58%;
     height: 260px;
     border-radius: 20px;
-    background: #FAF5F5;
+    background: #FFD6AD;
+    opacity: 0.8;
+  }
+  .right:hover {
+    opacity: 1;
   }
 
   #quote {

@@ -120,11 +120,12 @@ li:hover,#music:hover,#games:hover {
    background:    #F9F3F3;
    color: #B82500;
    text-decoration: none;
+   opacity: 0.6;
 
   }
   .button:hover {
    border-top-color: #28597a;
-   opacity: 0.6;
+   opacity: 1;
    width: 120%;
    height: 120%;
    }

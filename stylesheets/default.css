@@ -164,7 +164,7 @@ li:hover,#music:hover,#games:hover {
     height: 50px;
     padding: 10px;
     background: #F5EBEB;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 5px;
     box-shadow: inset 3px 3px 3px 3px #000, 0 0 0 0 #000;
   }
@@ -182,7 +182,7 @@ li:hover,#music:hover,#games:hover {
     width: 52px;
     height: 55px;
     background: #F5EBEB;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 5px;
     box-shadow: inset 3px 3px 3px 3px #000, 0 0 0 0 #000;
   }
@@ -199,7 +199,7 @@ li:hover,#music:hover,#games:hover {
     width:42px;
     height:42px;
     background: #F5EBEB;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 5px;
     box-shadow: inset 3px 3px 3px 3px #000, 0 0 0 0 #000;
   }
@@ -216,7 +216,7 @@ li:hover,#music:hover,#games:hover {
     width: 37px;
     height: 37px;
     background: #F5EBEB;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 5px;
     box-shadow: inset 3px 3px 3px 3px #000, 0 0 0 0 #000;
   }

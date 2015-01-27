@@ -26,6 +26,9 @@ h1 {
  font-size: 20px;
  background: white;
 }
+.button:hover {
+  font-size: 25px;
+}
 .blogbody {
   width: 90%;
   margin: 30px;

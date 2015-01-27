@@ -8,11 +8,11 @@
 
 <body>
 
-  <div class="homebutton"><a href="../index.html">Home</a></div>
-  <div class="blogbutton"><a href="./blog_index.html">Blog</a></div>
-  <h1 class="heading">Natalia's Technical Blog</h1>
-  <h2 class="heading">Post 4. Enumerable methods</h2>
-  <h4 class="heading">December 12,2014</h4>
+  <div><a id="home" href="../index.html"></a>
+  <div id="blog"><a class="button" href="blog_index.html">BLOG</a></div>
+
+  <h1 class="heading"> Enumerable methods</h2>
+  <h2 class="heading">December 4,2014</h4>
 
 
 
@@ -29,18 +29,18 @@
     <p>
       The syntax of the method is:
     </p>
-      <code>
+      <pre>
        (a..b).group_by{|i| i.method}
-     </code>
-     <code>
+     </pre>
+     <pre>
        [2,45,600,3,54,987,23,7432,87].group_by{|i| i.to_s.length}
-      </code>
+      </pre>
       <p>
       The result will look like this:
     </p>
-      <code>
+      <pre>
         =>{1=>[2,3],2=>[45,54,23,87],3=>[600,987],4=>[7432]}
-      </code>
+      </pre>
     </p>
     <p>
       So we will have as many keys in our result hash as many answers we get for our question with given collection.

@@ -1,3 +1,4 @@
+
 h1,h2 {
   text-align: center;
   color: #B82500;
@@ -5,7 +6,7 @@ h1,h2 {
   font-weight: bold;
 }
 h1 {
-  font-size: 55px;
+  font-size: 65px;
 }
 #blog {
   position: absolute;
@@ -24,13 +25,5 @@ h1 {
   background: white;
 }
 p {
-  font-size: 20px;
-  text-indent: 13px;
-  margin-top: 10px;
-  margin-right: 6px;
-}
-
-pre {
-  color: blue;
-  font-size: 18px;
+  font-size: 25px;
 }

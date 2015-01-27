@@ -4,17 +4,16 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+
 </head>
 
 <body>
 
-<div class="homebutton"><a href="../index.html">Home</a></div>
-  <div class="blogbutton"><a href="./blog_index.html">Blog</a></div>
-  <h1 class="heading">Natalia's Technical Blog</h1>
-  <h2 class="heading">Post 3. Arrays and Hashes.</h2>
-  <h4 class="heading">December 5, 2014</h4>
+<div><a id="home" href="../index.html"></a>
+  <div id="blog"><a class="button" href="blog_index.html">BLOG</a></div>
 
-
+  <h1 class="heading"> Arrays and hashes</h2>
+  <h2 class="heading">December 5,2014</h4>
 
   <section class="blogbody">
     <p>
@@ -23,18 +22,18 @@
     <p>
       For example, if you have a CD with 10 songs on it, you can create an array called cd, that will have 10 elements , each element will be accessible in this way:
    </p>
-   <code>
+   <pre>
      cd[0]-first element
-   </code>
-   <code>
+   </pre>
+   <pre>
      cd [1]-second element
-   </code>
+   </pre>
    <p>
       , and so on. To set each element , yoiu can either access it individually, like cd[3]="We will rock you", or set all elements while initializing array:
    </p>
-   <code>
+   <pre>
      cd=["song1', "song2", ... , song10].
-   </code>
+   </pre>
    <p>
      Any time you can add new element, set it pointing to new value, or delete it. In case you will try to access the element that does not exist, like cd[14], Ruby will not through an error, but simply return nil, because nothing is there.
    </p>
@@ -45,39 +44,39 @@
       Both Arrays and Hashes can hold objects of different types .
     </p>
     <p>So, initializing new Array can be done so:</p>
-    <code>
+    <pre>
       cd=[]
-    </code>
-    <code>
+    </pre>
+    <pre>
       cd=Array.new
-    </code>
-    <code>
+    </pre>
+    <pre>
       cd=['song1','song2','song3',...,'song4']
-    </code>
+    </pre>
     <p>
       You can operate each element within Array one at a time, like :
     </p>
-    <code>
+    <pre>
       array[i]=array[i]*3,
-    </code>
+    </pre>
     <p>
       or you can use Array,s "map" method to iterate through each element within Array, changing it:
     </p>
-    <code>
+    <pre>
       array.map!{|n| n*3}
-    </code>
+    </pre>
     <p>
       Hashes are similar to Arrays, but you access each element not by its index, but by the corresponding key. Here is example of a Hash:
     </p>
-    <code>
+    <pre>
       age={"Peter"=>25,"Anna"=>27,"Masha"=>18}
-    </code>
+    </pre>
     <p>
       So, to access an elemnt(value), within a Hash, you will call for its key, like:
     </p>
-    <code>
+    <pre>
       age["Peter"]
-    </code>
+    </pre>
     <p>
       So, Hashes are used, when we don't want to access elements by their index numbers, but rather by some keywords (for example, in phonebooks, address books, grades at school and so on.)
     </p>

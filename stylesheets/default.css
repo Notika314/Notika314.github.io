@@ -156,9 +156,9 @@ li:hover,#music:hover,#games:hover {
   }
   #google:hover {
     margin: 0px;
+    opacity: 1;
     width: 100px;
     height: 70px;
-    opacity: 1;
   }
 
   #github {
@@ -174,9 +174,9 @@ li:hover,#music:hover,#games:hover {
   }
   #github:hover {
     margin: 0px;
+    opacity: 1;
     width: 70px;
     height: 70px;
-    opacity: 1;
   }
   #facebook {
     content: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSB4pL6OXqWMFBEjeDAWeqERhGGSaM42gUVXs_cHgzo3RO1hNj04xV1clY);
@@ -191,9 +191,9 @@ li:hover,#music:hover,#games:hover {
   }
   #facebook:hover {
     margin: 0px;
+    opacity: 1;
     width: 60px;
     height: 60px;
-    opacity: 1;
   }
   #linkedin {
     content: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTifasrHkYn3Y1ZdG11HJ5eeZ6PklyJVVO12OaqS-qhh6-D6tsc);
@@ -208,9 +208,9 @@ li:hover,#music:hover,#games:hover {
   }
   #linkedin:hover {
     margin: 0px;
+    opacity: 1;
     width: 50px;
     height: 50px;
-    opacity: 1;
   }
 
  /*#google, #github, #facebook, #linkedin, #music, #games:hover {

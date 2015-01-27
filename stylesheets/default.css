@@ -23,9 +23,9 @@ body {
     background: #FAF5F5;
   }
 
-  p {
+  #right.p {
     margin: 15px;
-    font-size: 52px;
+    font-size: 52em;
     text-align: left;
     family-weight: bold;
     font-family: papyrus;

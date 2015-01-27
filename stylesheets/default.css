@@ -189,11 +189,11 @@ li:hover,#music:hover,#games:hover {
     box-shadow: inset 3px 3px 3px 3px #000, 0 0 0 0 #000;
   }
 
- #google, #github, #facebook, #linkedin, #music, #games:hover {
+ /*#google, #github, #facebook, #linkedin, #music, #games:hover {
   height: 130%;
   width: 130%;
   opacity: 1;
- }
+ }*/
 
   #introduction {
     position: relative;

@@ -67,6 +67,13 @@ body {
     width: 290px;
     height: 140px;
   }
+  #portfolio {
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    width: 290px;
+    height: 140px;
+  }
   #something {
     position: absolute;
     top: 170px;
@@ -150,13 +157,6 @@ li:hover,#music:hover,#games:hover {
    background:  #583B1F;
    }
 
-  #portfolio {
-    position: relative;
-    top: 170px;
-    left: 500px;
-    width: 290px;
-    height: 140px;
-  }
   #google {
     content: url(http://i830.photobucket.com/albums/zz221/GoogleLogoFun/BlackZephirGoogle.png);
     margin: 5px;

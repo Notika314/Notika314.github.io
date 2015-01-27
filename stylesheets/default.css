@@ -57,22 +57,22 @@ body {
     position: absolute;
     top: 10px;
     left: 500px;
-    width: 230px;
-    height: 100px;
+    width: 290px;
+    height: 140px;
   }
   #projects {
     position: absolute;
     top: 10px;
-    left: 755px;
-    width: 230px;
-    height: 100px;
+    left: 815px;
+    width: 290px;
+    height: 140px;
   }
   #something {
     position: absolute;
-    top: 130px;
-    left: 755px;
-    width: 230px;
-    height: 100px;
+    top: 170px;
+    left: 815px;
+    width: 290px;
+    height: 140px;
   }
 
 #list {
@@ -135,10 +135,10 @@ li:hover,#music:hover,#games:hover {
 
   #portfolio {
     position: relative;
-    top: 130px;
+    top: 170px;
     left: 500px;
-    width: 230px;
-    height: 100px;
+    width: 290px;
+    height: 140px;
   }
   #google {
     content: url(http://i830.photobucket.com/albums/zz221/GoogleLogoFun/BlackZephirGoogle.png);

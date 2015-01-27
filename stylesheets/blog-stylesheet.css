@@ -10,14 +10,14 @@ h1 {
 #blog {
   z-index: 1;
   position: absolute;
-  top: 140px;
+  top: 130px;
   left: 15px;
   width: 100px;
   height: 55px;
   opacity: 0.8;
 }
 #blog:hover {
-  top: 130px;
+  top: 120px;
   left: 5px;
   width: 130px;
   height: 75px;

@@ -29,12 +29,13 @@ h1 {
 }
 .button:hover {
   font-size: 38px;
+  background: white;
 }
 .blogbody {
   width: 90%;
   margin: 30px;
   background: #FFE0B2;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 p {
   font-size: 20px;

@@ -8,6 +8,7 @@ h1 {
   font-size: 55px;
 }
 #blog {
+  z-index: 1;
   position: absolute;
   top: 120px;
   left: 15px;

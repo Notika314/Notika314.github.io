@@ -153,9 +153,9 @@ body {
    position: absolute;
    width: 90%;
    height: 90%;
-   border: 3px solid grey /*#A34747*/;
+   /*border: 3px solid grey /*#A34747*/;*/
    border-radius: 11px;
-   box-shadow: rgba(0,0,0,1) 0 2px 0;
+   /*box-shadow: rgba(0,0,0,1) 0 2px 0;*/
    text-shadow: rgba(0,0,0,.4) 0 2px 0;
    font-size: 35px;
    font-weight:bold;
@@ -168,7 +168,7 @@ body {
   }
   .button:hover {
     z-index: 2;
-   border-top-color: #28597a;
+   /*border-top-color: #28597a;*/
    font-size: 45px;
    background: #FFD6AD;
    width: 110%;

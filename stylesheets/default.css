@@ -211,7 +211,9 @@ a {
   font-size: 45px;
 }
 .postName {
+  position: relative;
+  top: 20px;
   color: #4C3D2E;
-  font-size: 45px;
+  font-size: 40px;
   font-family: monaco;
 }

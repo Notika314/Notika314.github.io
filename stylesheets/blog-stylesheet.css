@@ -4,7 +4,6 @@ body {
 }
 h1,h2 {
   background: #F5E0EB;
-  z-index: 3;
   text-align: center;
   color: #5C2E00;
   font-family: courier;

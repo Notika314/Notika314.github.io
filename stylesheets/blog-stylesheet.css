@@ -1,44 +1,44 @@
 body {
-  background-attachment: fixed;
+  background: #F5E0EB;
 }
 h1,h2 {
   text-align: center;
-  color: #B82500;
-  font-family: papyrus;
+  color: #5C2E00;
+  font-family: courier;
   font-weight: bold;
 }
 h1 {
-  font-size: 55px;
+  font-size: 75px;
 }
 #blog {
   z-index: 1;
   position: absolute;
-  top: 130px;
+  top: 100px;
   left: 15px;
   width: 100px;
   height: 55px;
-  opacity: 0.8;
+  font-family: courier;
+  font-weight: bold;
 }
 #blog:hover {
-  top: 120px;
-  left: 5px;
   width: 130px;
   height: 75px;
   opacity: 1;
 }
 .button {
- font-size: 20px;
- background: white;
+ font-size: 35px;
 }
 .button:hover {
-  font-size: 38px;
-  background: white;
+  font-size: 50px;
 }
 .blogbody {
-  width: 90%;
-  margin: 30px;
-  background: white;
-  opacity: 0.9;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  background:   #F8F4F1;
+  border-top: 18px solid #472400;
+  padding-bottom: 50px;
+  padding-top: 60px;
 }
 p {
   font-size: 20px;
@@ -46,10 +46,18 @@ p {
   padding-top: 10px;
   margin-left: 10px;
   margin-right: 6px;
-  font-family: papyrus;
+  font-family: tahoma;
+  text-align: left;
 }
 
 pre {
-  color: blue;
+  position: relative;
+  color: #472400;
   font-size: 18px;
+  background: white;
+  width: 60%;
+  padding-top:30px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  border: 2px solid #472400;
 }

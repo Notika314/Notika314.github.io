@@ -20,7 +20,14 @@ body {
   /*border: 1px solid #666666;*/
   content: url("https://avatars2.githubusercontent.com/u/8938571?v=3&s=460");
   }
-
+#email {
+    position: absolute;
+    top: 10px;
+    left: 860px;
+    height: 50px;
+    width: 50px;
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAySHOeI0haJ5iZxJWQB1b2tkMY4D6Jj1CY6U0xEkWHEmC8Pwviw);
+  }
   .right {
     font-size: 17px;
     position: absolute;
@@ -31,6 +38,7 @@ body {
     height: 180px;
     border-radius: 5px;
   }
+
   #name {
     position: relative;
     margin-top: 60px;

@@ -50,8 +50,8 @@ p {
 }
 .quote {
   position: relative;
-  top: 0px;
-  right: -90px;
+  top: 10px;
+  right: 90px;
   margin: 0px;
   font-size: 20px;
   text-align: right;

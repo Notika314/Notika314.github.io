@@ -3,7 +3,7 @@ body {
   background-attachment:
 }
 h1,h2 {
-  z-index: 2;
+  z-index: 3;
   text-align: center;
   color: #5C2E00;
   font-family: courier;

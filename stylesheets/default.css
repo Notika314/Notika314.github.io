@@ -101,14 +101,14 @@ a {
   margin-top: -10px;
   position: fixed;
   z-index: 2;
-  left: 720px;
-  width: 300px;
+  left: 920px;
+  width: 400px;
   }
 
 .link {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
   #google, #github, #facebook, #linkedin {

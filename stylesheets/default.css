@@ -157,7 +157,7 @@ a {
     height: 190px;
   }
  #home {
-  position: absolute;
+  position: fixed;
   top: 25px;
   left: 15px;
   width: 5%;

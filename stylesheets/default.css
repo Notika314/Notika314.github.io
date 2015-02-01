@@ -157,6 +157,7 @@ a {
     height: 190px;
   }
  #home {
+  z-index: 2;
   position: fixed;
   top: 25px;
   left: 15px;

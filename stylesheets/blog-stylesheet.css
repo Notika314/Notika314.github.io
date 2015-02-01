@@ -11,9 +11,6 @@ h1,h2 {
 h1 {
   font-size: 65px;
 }
-div {
-  position: fixed;
-}
 #blog {
   z-index: 1;
   position: absolute;

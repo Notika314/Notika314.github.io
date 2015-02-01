@@ -17,25 +17,26 @@
   <section class="blogbody">
 
 
-      <p><code><pre style="width: 80%">class Drink
-        attr_accessor :price, :taste, :causes_hangover?, :low_calorie?
-        attr_reader :name
-          def initialize(name)
-            @name = name
-          end
-          def print_info
-           if @causes_hangover? == true
-             p "it might give you leave you with headache on the next day"
-             p "Don't drink it unless you are 21 or older"
-           end
-           if @low_calorie? == true
-             p "The good thing about it, you don't have to worry about calories"
-           end
-          end
-          mojito=Drink.new("Mojito")
-          mojito.taste = "soursweet"
-          mojito.causes_hangover = true
-          mojito.low_calorie = false
+      <p><code><pre style="width: 80%">
+        class Drink
+          attr_accessor :price, :taste, :causes_hangover?, :low_calorie?
+          attr_reader :name
+            def initialize(name)
+               @name = name
+            end
+            def print_info
+               if @causes_hangover? == true
+                   p "it might give you leave you with headache on the next day"
+                   p "Don't drink it unless you are 21 or older"
+               end
+               if @low_calorie? == true
+                   p "The good thing about it, you don't have to worry about calories"
+               end
+            end
+            mojito=Drink.new("Mojito")
+            mojito.taste = "soursweet"
+            mojito.causes_hangover = true
+            mojito.low_calorie = false
         end</code></pre></p>
 
     <p>Classes are like prototipes for ruby objects. They define properties and methods that instances of a class will have. Not that any object can't have it's own properties - you always can define unique methods for any object, that not any other object will have. But , if you know that you will be creating lots of objects that will need to respond to certain method(s), it make sense to define class, define methods that all instanses of that class will have, and than create as many instances of that class as needed, with simple "object_name = Class_name.new" command</p>

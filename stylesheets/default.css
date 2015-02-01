@@ -149,6 +149,14 @@ a {
     left: 0px;
     height: 190px;
   }
+  #coffee {
+   float: right;
+   margin-top: 30px;
+   margin-right: 100px;
+   height: 130px;
+   width: 130px;
+   content: url(http://www.clker.com/cliparts/b/o/w/i/Q/y/star-coffee-hi.png);
+  }
  #home {
   z-index: 2;
   position: fixed;

@@ -49,6 +49,7 @@ p {
 }
 .quote {
   position: relative;
+  right: -70px;
   top: 10px;
   margin: 0px;
   font-size: 20px;

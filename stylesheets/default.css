@@ -166,8 +166,8 @@ a {
   content: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKFz_ctebiVFoojvOdju3_1O6jwi3Cl8m5oa0gwKXzA9Gb9w09pA);
  }
  #home:hover {
-  width: 7%;
-  height: 90px;
+  width: 5%;
+  height: 70px;
   opacity: 0.9;
  }
 

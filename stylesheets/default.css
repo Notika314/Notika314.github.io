@@ -34,7 +34,7 @@ body {
   }
   #name {
     position: realtive;
-    left: -130px;
+    left: -230px;
     margin-top: 50px;
     margin-bottom: 30px;
     color:  #666666;
@@ -51,7 +51,7 @@ p {
 }
 .quote {
   position: relative;
-  top: 40px;
+  top: 0px;
   right: -90px;
   margin: 0px;
   font-size: 20px;

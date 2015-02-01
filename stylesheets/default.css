@@ -39,7 +39,7 @@ body {
     color:  #666666;
     font-size: 70px;
     font-weight: bolder;
-    font-family: tahoma;
+    font-family: courier;
     text-align: center;
   }
 p {
@@ -141,11 +141,6 @@ a {
     height: 300px;
     background:  #E0C2D1;
   }
-
-
-
-
-
 
   #top {
     position: absolute;

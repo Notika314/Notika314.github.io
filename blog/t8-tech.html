@@ -52,41 +52,29 @@
     </p>
     <p>
       for regexp, there are special characters that are denoted with '\', each of them has special meaning:
-   <ul>
-    <li>
+   <pre>
       ^ - anchor for the beginning of a line
-    </li>
-    <li>
+
       $ - anchor for the end of a line
-    </li>
-    <li>
+
       \A - anchor for the start of a string
-    </li>
-    <li>
+
       \Z - anchor for the end of the string
-    </li>
-    <li>
+
       . - any character
-    </li>
-    <li>
+
       \w - any letter/digit/underscore
-    </li>
-    <li>
+
       \W - anything that '\w' does not match
-    </li>
-    <li>
+
       \d - any digit
-    </li>
-    <li>
+
       \D - any non-digit
-    </li>
-    <li>
+
       \s - whitespace (including tabs, newline, etc.)
-    </li>
-    <li>
+
       \S - non-whitespace
-    </li>
-  </ul>
+    </pre>
   </p>
   <p>
     Let's say, we want to iterate through words/numbers in a string, and of course words in a string will have different length. For this purpose, we should use '+' , that follows '\w' or '\d' character. '+' matches as many characters in a row of the same type as it finds:

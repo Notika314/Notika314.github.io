@@ -122,9 +122,9 @@ a {
     content: url(http://www.hertssecuritysolutions.co.uk/wp-content/uploads/2015/01/google-logo.png);
   }
 
-  #github {
+ /* #github {
     content: url(https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png);
-  }
+  }*/
   #facebook {
     content: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSB4pL6OXqWMFBEjeDAWeqERhGGSaM42gUVXs_cHgzo3RO1hNj04xV1clY);
   }

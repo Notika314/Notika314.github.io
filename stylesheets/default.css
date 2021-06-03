@@ -39,9 +39,9 @@ header {
   display: inline-block;
   vertical-align: top;
   margin-top: 15px;
-  margin-left: 12%;
-  height: 350px;
-  width: 23%;
+  margin-left: 2%;
+  height: 550px;
+  width: 31%;
   border-radius: 0.7em;
   
 }
@@ -49,16 +49,16 @@ header {
 #photo img {
   width: 100%;
   height: 100%;
-  border-radius: 15em;
+  border-radius: 20em;
   opacity: 0.8;
 }
 #info {
   display: inline-block;
   vertical-align: top;
   margin-top: 15px;
-  margin-left: 8%;
+  margin-left: 6%;
   margin-top: 50px;
-  width: 50%;
+  width: 60%;
   height: 350px;
  }
 .infotext {

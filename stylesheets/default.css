@@ -36,8 +36,10 @@ header {
   vertical-align: top;
   margin-top: 15px;
   margin-left: 12%;
-  height: 390px;
-  width: 23%;
+  height: 100vw;
+  width: 100vw;
+  /*height: 390px;*/
+  /*width: 23%;*/
   border-radius: 0.7em;
   
 }

@@ -19,8 +19,8 @@ header {
   z-index: 1;
 }
 
-.glow {
-  box-shadow: 0 5px 15px rgba(240,240,245,0.5)
+.glow:hover {
+  box-shadow: 0 10px 15px rgba(239,239,245,0.5)
 }
 
 #greeting {

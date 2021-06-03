@@ -15,8 +15,9 @@ header {
   height: 70px;
   width: 100%;
   margin: auto;
-  background-color: #3d3d5c;
+  background-color: #07073d;
   z-index: 1;
+  opacity:1;
 }
 
 .glow:hover {
@@ -143,10 +144,50 @@ li:hover {
  #icon3:hover {
   transform: scale(1.3);
 }
+#button2 {
+  position: absolute;
+  top: 10px;
+  right: 27%;
+  height: 50px;
+  padding: 0.9em 5 em;
+  border:0.16em solid #FFFFFF;
+  border-radius: 2px;
+}
+#button-text {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 28px;
+  text-decoration: none;
+  text-align: center;
+  font-family: courier;   ;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+#button2:hover{
+ color:#DDDDDD;
+ border-color:#DDDDDD;
+ text-decoration: none;
+ border: 0.26em solid #A4B5CB;
+}
+#button2:hover >#button-text {
+  color: #A4B5CB;
+  font-weight: 400;
+}
 
-
+#button2:active{
+ color:#BBBBBB;
+ border-color:#BBBBBB;
+}
+@media all and (max-width:30em){
+ #button2{
+  display:block;
+  margin:0.4em auto;
+ }
+}
 #myprojects {
-  /*border: 2px solid white;*/
+  /*border-top: 2px solid #A4B5CB;*/
   float: bottom;
   margin-top: 50px;
   margin-left: 0%;
@@ -156,32 +197,42 @@ li:hover {
   white-space: nowrap;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
-  background-color: black;    
+  /*background-color: black;    */
 }
 #myprojects h1 {
   /*border: 2px solid white;*/
-  margin-top: 50px  ;
+  margin-top: 70px  ;
+  margin-bottom: 50px;
   position: inline-block;
   font-family: courier;
   text-align: center;
   color: white;
-  font-size: 350%;
+  font-size: 450%;
 
 }
-#myprojects h1:hover {
+/*#myprojects h1:hover {
   transform: scale(1.5);
   font-weight: bold;
+}*/
+
+.line{
+width: 86%;
+margin-left: 7%;
+margin-right: 7 %;
+height: 2px;
+border-bottom: 1px solid white;
+position: absolute;
 }
 .projects {
   position: relative;
-  height: 240px;
-  width: 240px;
+  height: 280px;
+  width: 280px;
   /*background-color: white;*/
   float: none;
   display: inline-block;
   margin-top: 0px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
   zoom: 1;
   padding: 10px ;
   /*box-shadow: inset 0 0 0 10px green;*/
@@ -210,8 +261,4 @@ li:hover {
   color: white;
   text-align:center;
 }
-
-
-
-
 

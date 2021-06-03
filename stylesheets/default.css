@@ -43,8 +43,8 @@ header {
 }
 
 #photo img {
-  width: 99%;
-  height: 100%;
+  width: 100%;
+  height: 110%;
   border-radius: 15em;
   opacity: 0.8;
 }

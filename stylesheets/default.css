@@ -20,7 +20,7 @@ header {
 }
 
 .glow {
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4)
+  box-shadow: 0 5px 15px rgba(102,102,153,0.4)
 }
 
 #greeting {

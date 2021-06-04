@@ -219,7 +219,7 @@ li:hover {
 width: 86%;
 margin-left: 7%;
 margin-right: 7 %;
-height: 2px;
+height: 72px;
 border-bottom: 1px solid white;
 position: absolute;
 }
@@ -230,7 +230,7 @@ position: absolute;
   /*background-color: white;*/
   float: none;
   display: inline-block;
-  margin-top: 0px;
+  margin-top: 40px;
   margin-left: 80px;
   margin-right: 80px;
   zoom: 1;
